@@ -1,33 +1,40 @@
-🧩 Maze Solver
+# 🧩 Maze Solver
+
 Maze Solver is an educational Python project for drawing and solving mazes using graphics and search algorithms. This project was developed as part of boot.dev courses and is ideal for learning about classes, 2D lists, graphics, and basic algorithms.
 
-✨ Features
-✅ Dynamic creation of a grid (maze) with cells
+---
 
-✅ Visualization of walls, entrance, and exit
+## ✨ Features
 
-✅ Gradual drawing of the maze (animation)
+- ✅ Dynamic creation of a grid (maze) with cells  
+- ✅ Visualization of walls, entrance, and exit  
+- ✅ Gradual drawing of the maze (animation)  
+- ✅ Ability to add search and pathfinding algorithms (e.g. DFS, BFS — in progress)  
+- ✅ Unit tests for logic verification (without graphics)  
 
-✅ Ability to add search and pathfinding algorithms (e.g. DFS, BFS — in progress)
+---
 
-✅ Unit tests for logic verification (without graphics)
-
-🛠️ Project Structure
+## 🛠️ Project Structure
 
 Maze-solver/
 │
 ├── src/
-│   ├── cell.py         # Class representing a single maze cell
-│   ├── maze.py         # Class representing the entire maze grid
-│   ├── main.py         # Main program to run and display the maze
-│   ├── window.py       # Wrapper for drawing (GUI window)
-│   └── tests.py        # Unit tests to verify maze logic
+│ ├── cell.py # Class representing a single maze cell
+│ ├── maze.py # Class representing the entire maze grid
+│ ├── main.py # Main program to run and display the maze
+│ ├── window.py # Wrapper for drawing (GUI window)
+│ └── tests.py # Unit tests to verify maze logic
 │
-├── README.md           # This file
-├── .gitignore          # Git ignore rules
+├── README.md # This file
+├── .gitignore # Git ignore rules
 
-📦 How to Run
+---
+
+## 📦 How to Run
+
 Clone the repository:
+
+```bash
 git clone https://github.com/miARTre/Maze-solver.git
 cd Maze-solver/src
 
@@ -36,7 +43,7 @@ python -m venv venv
 source venv/bin/activate  # on macOS/Linux
 venv\Scripts\activate     # on Windows
 
-Run the main program (for example, if you have maze.py as entry point):
+Run the main program (for example, if you have main.py as entry point):
 python main.py
 
 ✅ Testing
