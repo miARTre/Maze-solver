@@ -46,12 +46,17 @@ venv\Scripts\activate     # on Windows
 Run the main program (for example, if you have main.py as entry point):
 python main.py
 
-✅ Testing
+```
+---
+
+## ✅ Testing
 The project includes basic unit tests for maze logic:
 python -m unittest tests.py
 The tests do not cover drawing, only logic such as number of cells and wall removal.
 
-🧱 Classes
+---
+
+## 🧱 Classes
 Cell
 Represents one maze cell. Stores walls and knows how to draw itself.
 
@@ -61,11 +66,15 @@ Consists of many cells in a grid. Responsible for creating cells, drawing, and b
 Window
 Simple GUI layer for drawing lines and showing animations.
 
-🔧 Work in Progress
+---
+
+## 🔧 Work in Progress
 Adding maze-solving algorithms (DFS, BFS, A*)
 Visualizing the path through the maze
 Interactive random maze generation
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 Made with 🧠 by miARTre – part of Boot.dev courses.
 All comments and pull requests are welcome!
