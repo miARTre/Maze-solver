@@ -16,18 +16,19 @@ Maze Solver is an educational Python project for drawing and solving mazes using
 
 ## 🛠️ Project Structure
 
+```
 Maze-solver/
 │
 ├── src/
-│ ├── cell.py # Class representing a single maze cell
-│ ├── maze.py # Class representing the entire maze grid
-│ ├── main.py # Main program to run and display the maze
-│ ├── window.py # Wrapper for drawing (GUI window)
-│ └── tests.py # Unit tests to verify maze logic
+│   ├── cell.py         # Class representing a single maze cell
+│   ├── maze.py         # Class representing the entire maze grid
+│   ├── main.py         # Main program to run and display the maze
+│   ├── window.py       # Wrapper for drawing (GUI window)
+│   └── tests.py        # Unit tests to verify maze logic
 │
-├── README.md # This file
-├── .gitignore # Git ignore rules
-
+├── README.md           # This file
+├── .gitignore          # Git ignore rules
+```
 ---
 
 ## 📦 How to Run
