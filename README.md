@@ -52,7 +52,9 @@ python main.py
 
 ## ✅ Testing
 The project includes basic unit tests for maze logic:
+```bash
 python -m unittest tests.py
+```
 The tests do not cover drawing, only logic such as number of cells and wall removal.
 
 ---
